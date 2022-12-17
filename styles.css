@@ -771,3 +771,10 @@ main .container .right {
     width: 92vw;
   }
 }
+
+/* Mobile Phones */
+@media screen and (max-width: 750px) {
+  .customize-theme .choose-bg {
+    flex-direction: column;
+  }
+}
